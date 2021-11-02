@@ -23,11 +23,6 @@ export default function Header() {
                     </Link>
                 </li>
                 <li className="mx-4">
-                    <Link href="#activities">
-                        Activities
-                    </Link>
-                </li>
-                <li className="mx-4">
                     <Link href="#projects">
                         Projects
                     </Link>
@@ -35,6 +30,11 @@ export default function Header() {
                 <li className="mx-4">
                     <Link href="#skills">
                         Skills
+                    </Link>
+                </li>
+                <li className="mx-4">
+                    <Link href="#activities">
+                        Activities
                     </Link>
                 </li>
                 <li className="mx-4">

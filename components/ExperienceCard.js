@@ -4,9 +4,9 @@ export default function ExperienceCard(props) {
             <img src={props.imgPath} className="h-20 w-20 object-contain my-auto mx-8"/>
             <div className="my-auto p-8 flex flex-col">
                 <span className="text-2xl font-bold">{props.companyName}</span>
-                <span className="text-base mb-4">{props.description}</span>
+                <span className="text-base text-justify">{props.description}</span>
+                <span className="my-4"><b>Technology Used:</b> {props.techUsed}</span>
                 <span ><b>Duration:</b> {props.duration}</span>
-                <span ><b>Technology Used:</b> {props.techUsed}</span>
             </div>
         </div>
     );
