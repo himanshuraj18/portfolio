@@ -38,8 +38,8 @@ export default function Header() {
                     </Link>
                 </li>
                 <li className="mx-4">
-                    <Link href="#contact">
-                        Contact
+                    <Link href="#socials">
+                        Socials
                     </Link>
                 </li>
             </ul>
