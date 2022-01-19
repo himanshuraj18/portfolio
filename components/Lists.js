@@ -1,11 +1,11 @@
 export const eduList = [
 	{
-		duration: "2018-Present",
+		duration: "2018-22",
 		imgPath: "assets/iiitd.png",
 		courseName: "B.Tech in Computer Science and Engineering",
 		instituteName: "IIIT-D",
-		grade: "7.91 CGPA",
-		gradeShow: false,
+		grade: "8.14 CGPA",
+		// gradeShow: false,
 	},
 	{
 		duration: "2017-18",
