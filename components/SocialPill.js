@@ -5,7 +5,7 @@ export default function SocialPill(props) {
         <Link href={props.link}>
             <a target="_blank">
                 <div className="flex">
-                    <img src={props.imgPath} className="object-contain h-16 w-16 p-2 rounded-sm"></img>
+                    <img src={props.imgPath} className="object-contain h-12 sm:h-16 w-12 sm:w-16 rounded-sm"></img>
                 </div>
             </a>
         </Link>

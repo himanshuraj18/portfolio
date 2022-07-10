@@ -29,7 +29,7 @@ export const expList = [
 		imgPath: "assets/enveave.jpg",
 		companyName: "Enveave",
 		description: "Worked as frontend developer. Made pages from scratch for the Enveave platform. Used Github extensively for writing more than 5000 lines of code. Collaborated with UI/UX as well as backend team for the complete overhaul (designing and functionality) of the project.",
-		techUsed: "NextJS/ReactJS, Tailwind CSS and React-Redux"
+		techUsed: "NextJS/ReactJS, Tailwind CSS, React-Redux and Github"
 	
 	},
 	{
