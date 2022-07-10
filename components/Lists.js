@@ -3,8 +3,8 @@ export const eduList = [
 		duration: "2018-22",
 		imgPath: "assets/iiitd.png",
 		courseName: "B.Tech in Computer Science and Engineering",
-		instituteName: "IIIT-D",
-		grade: "8.14 CGPA",
+		instituteName: "IIIT-Delhi",
+		grade: "8.17 CGPA",
 		// gradeShow: false,
 	},
 	{
@@ -24,6 +24,14 @@ export const eduList = [
 ]
 
 export const expList = [
+	{
+		duration: "August 2021 - July 2022",
+		imgPath: "assets/enveave.jpg",
+		companyName: "Enveave",
+		description: "Worked as frontend developer. Made pages from scratch for the Enveave platform. Used Github extensively for writing more than 5000 lines of code. Collaborated with UI/UX as well as backend team for the complete overhaul (designing and functionality) of the project.",
+		techUsed: "NextJS/ReactJS, Tailwind CSS and React-Redux"
+	
+	},
 	{
 		duration: "May 2021 - July 2021",
 		imgPath: "assets/iiitd.png",
@@ -144,17 +152,17 @@ export const activitiesList = [
 	{
 		name: "Coordinator | Outreach Team IIIT-D",
 		description: "Managing all the outreach programmes of the institute. Organising open houses, handling social media pages. etc.",
-		duration: "Jun 2021 - Present"
+		duration: "Jun 2021 - May 2022"
 	},
 	{
 		name: "Teaching Assistant of Introduction to Programming",
 		description: "Responsible for taking labs, tutorials and doubt sessions for students. Also, designed worksheets and exams in the course.",
-		duration: "Jan 2021 - Apr 2021"
+		duration: "Jan 2021 - Apr 2021 and Jan 2022 - Apr 2022"
 	},
 	{
 		name: "Mentor | Student Mentorship Programme",
 		description: "Mentoring 10 first year undergraduates with their transititon from school to college and helping them to adapt to a new environment.",
-		duration: "Jan 2021 - Present"
+		duration: "Jan 2021 - Dec 2021"
 	},
 	{
 		name: "Event Head | Esya '19 Technical Fest of IIIT-D",

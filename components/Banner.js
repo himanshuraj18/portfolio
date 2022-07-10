@@ -9,10 +9,10 @@ export default function Banner() {
                     HIMANSHU RAJ
                 </span>
                 <span className="text-2xl mt-6">
-                    Senior Undergraduate at IIIT-D
+                    Incoming SWE/SRE at Google Dublin
                 </span>
                 <span className="text-2xl mt-2">
-                    Incoming SWE at Microsoft IDC
+                    Alumni, IIIT-Delhi
                 </span>
             </div>
         </div>
