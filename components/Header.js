@@ -33,15 +33,15 @@ export default function Header() {
                     </Link>
                 </li>
                 <li className="mx-4">
-                    <Link href="#activities">
-                        Activities
+                    <Link href="#responsibilities">
+                        Responsibilities
                     </Link>
                 </li>
-                <li className="mx-4">
+                {/* <li className="mx-4">
                     <Link href="#socials">
                         Socials
                     </Link>
-                </li>
+                </li> */}
             </ul>
         </div>
     );

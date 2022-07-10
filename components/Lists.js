@@ -148,7 +148,7 @@ export const skillList = [
 	}
 ]
 
-export const activitiesList = [
+export const responsibilitiesList = [
 	{
 		name: "Coordinator | Outreach Team IIIT-D",
 		description: "Managing all the outreach programmes of the institute. Organising open houses, handling social media pages. etc.",
@@ -182,9 +182,13 @@ export const socialsList = [
 		link: "https://www.instagram.com/himanshu.raj18/"
 	},
 	{
-		imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg",
-		link: "https://www.facebook.com/himanshu.raj01"
+		imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg",
+		link: "https://twitter.com/himanshuraj1804"
 	},
+	// {
+	// 	imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg",
+	// 	link: "https://www.facebook.com/himanshu.raj01"
+	// },
 	{
 		imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg",
 		link: "https://www.linkedin.com/in/himanshuraj18/"

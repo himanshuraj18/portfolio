@@ -1,19 +1,17 @@
+import * as Lists from '/components/Lists'
 import Banner from '/components/Banner'
 import About from '/components/About'
 import EducationCard from '/components/EducationCard';
 import ExperienceCard from '/components/ExperienceCard';
 import ProjectCard from '/components/ProjectCard';
 import SkillPill from '/components/SkillPill';
-import ActivityCard from '/components/ActivityCard';
-import SocialPill from '/components/SocialPill';
-import * as Lists from '/components/Lists'
+import ResponsibilityCard from '/components/ResponsibilityCard';
 
 const eduList = Lists.eduList;
 const expList = Lists.expList;
 const projList = Lists.projList;
 const skillList = Lists.skillList;
-const activitiesList = Lists.activitiesList;
-const socialsList = Lists.socialsList;
+const responsibilitiesList = Lists.responsibilitiesList;
 
 export default function Home() {
 	return (
@@ -63,25 +61,14 @@ export default function Home() {
 					}
 				</div>
 			</div>
-			<div id="activities" className="flex flex-col my-20 mx-96">
-				<h1 className="text-4xl my-4 mx-auto font-medium"> Activities </h1>
-				{activitiesList.map((activity, index) => {
+			<div id="responsibilities" className="flex flex-col my-20 mx-96">
+				<h1 className="text-4xl my-4 mx-auto font-medium"> Responsibilities </h1>
+				{responsibilitiesList.map((responsibility, index) => {
 					return (
-						<ActivityCard key={index} {...activity} />
+						<ResponsibilityCard key={index} {...responsibility} />
 					);
 				})
 				}
-			</div>
-			<div id="socials" className="flex flex-col my-20 mx-40">
-				<h1 className="text-4xl my-4 mx-auto font-medium"> Socials </h1>
-				<div className="grid grid-cols-5 gap-2 my-8">
-					{socialsList.map((social, index) => {
-						return (
-							<SocialPill key={index} {...social} />
-						);
-					})
-					}
-				</div>
 			</div>
 		</>
 	);
