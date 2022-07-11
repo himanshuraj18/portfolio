@@ -1,6 +1,6 @@
 export default function ExperienceCard(props) {
     return (
-        <div className="flex flex-row bg-gray-200 rounded-lg my-4">
+        <div className="flex flex-row bg-white bg-opacity-40 backdrop-blur-md drop-shadow-lg rounded-lg my-4">
             <img src={props.imgPath} className="h-16 w-16 object-contain my-auto mx-2 sm:mx-8"/>
             <div className="my-auto p-4 sm:p-8 flex flex-col">
                 <span className="text-2xl font-bold">{props.companyName}</span>

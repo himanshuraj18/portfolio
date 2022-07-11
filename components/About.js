@@ -1,6 +1,6 @@
 export default function About(props) {
     return (
-        <div className="flex bg-gray-200 rounded-lg my-4 mx-auto">
+        <div className="flex bg-white bg-opacity-40 backdrop-blur-md drop-shadow-lg rounded-lg my-4 mx-auto">
             <span className="m-auto p-8">
                 I am a passionate software developer and I've just completed my bachelor degree from IIIT-Delhi. 
                 I've received offers from Google Dublin and Microsoft India after my undergraduate degree. I have

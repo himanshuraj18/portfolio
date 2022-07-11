@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function ProjectCard(props) {
 	return (
-		<div className="flex bg-gray-200 rounded-lg">
+		<div className="flex bg-white bg-opacity-40 backdrop-blur-md drop-shadow-lg rounded-lg">
 			<div className="my-auto p-8 flex flex-col">
 				<span className="text-2xl font-bold">{props.projName}</span>
 				<span className="text-lg font-medium">{props.advisor}</span>
