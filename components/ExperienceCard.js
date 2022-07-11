@@ -1,8 +1,8 @@
 export default function ExperienceCard(props) {
     return (
         <div className="flex flex-row bg-gray-200 rounded-lg my-4">
-            <img src={props.imgPath} className="h-20 w-20 object-contain my-auto mx-8"/>
-            <div className="my-auto p-8 flex flex-col">
+            <img src={props.imgPath} className="h-16 w-16 object-contain my-auto mx-2 sm:mx-8"/>
+            <div className="my-auto p-4 sm:p-8 flex flex-col">
                 <span className="text-2xl font-bold">{props.companyName}</span>
                 <span className="text-base text-justify">{props.description}</span>
                 <span className="my-4"><b>Technology Used:</b> {props.techUsed}</span>

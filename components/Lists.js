@@ -94,10 +94,10 @@ export const skillList = [
 		name: "Java",
 		imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
 	},
-	{
-		name: "C++",
-		imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
-	},
+	// {
+	// 	name: "C++",
+	// 	imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+	// },
 	{
 		name: "JavaScript",
 		imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
@@ -106,18 +106,18 @@ export const skillList = [
 		name: "HTML",
 		imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
 	},
-	{
-		name: "CSS",
-		imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-	},
+	// {
+	// 	name: "CSS",
+	// 	imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+	// },
 	{
 		name: "Tailwind CSS",
 		imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
 	},
-	{
-		name: "ReactJS",
-		imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-	},
+	// {
+	// 	name: "ReactJS",
+	// 	imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+	// },
 	{
 		name: "NextJS",
 		imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
@@ -126,18 +126,18 @@ export const skillList = [
 		name: "MySQL",
 		imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
 	},
-	{
-		name: "Linux/Unix",
-		imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
-	},
+	// {
+	// 	name: "Linux/Unix",
+	// 	imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+	// },
 	{
 		name: "Git/GitHub",
 		imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
 	},
-	{
-		name: "Tensorflow",
-		imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
-	},
+	// {
+	// 	name: "Tensorflow",
+	// 	imgPath: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+	// },
 	{
 		name: "PyTorch",
 		imgPath: "https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg"
